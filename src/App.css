@@ -36,3 +36,86 @@
     transform: rotate(360deg);
   }
 }
+
+/* In your CSS file or <style> tag */
+.home-page {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 20px;
+}
+.client-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-clients .client-logos img {
+  margin: 0 15px; /* Adds space to the left and right of each image */
+  height: 100px; /* Sets a fixed height for all images */
+  width: auto; /* Ensures the width is adjusted according to the aspect ratio */
+}
+/* Add styles for header, features, clients, testimonials, and get started sections */
+/* ... */
+
+/* Add media queries for responsiveness */
+/* @media (max-width: 768px) {}
+  Adjust styles for mobile 
+   */
+/* Add a smooth transition effect for all hover states */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Header hover effect */
+header h1:hover {
+  color: #f8f9f9; /* Changes the color of the header text */
+  transform: translateY(-5px); /* Moves the header text slightly up */
+}
+
+/* Features list hover effect */
+.features:hover {
+  /* background-color: #f8f9fa; Lightens the background color */
+  /* opacity: 0.0; */
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Our Clients section hover effect */
+.our-clients:hover {
+  transform: scale(1.2);
+  /* background-color: #f8f9fa; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials section hover effect */
+.testimonials:hover {
+  transform: scale(1.1);
+  /* background-color: #f8f9fa; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Get Started section hover effect */
+.get-started:hover {
+  transform: scale(1.2);
+  /* background-color: #f8f9fa; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Client logos hover effect */
+.our-clients .client-logos img:hover {
+  transform: scale(1.1); /* Scales up the logo */
+  opacity: 0.8; /* Makes the logo slightly transparent */
+}
+
+
+
+/* Get started section hover effect */
+.get-started a:hover {
+  background-color: #3498db; /* Changes the background color of the link */
+  color: white; /* Changes the text color of the link */
+  padding: 8px 16px; /* Adds padding to the link */
+  border-radius: 4px; /* Rounds the corners of the link background */
+}

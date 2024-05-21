@@ -1,0 +1,36 @@
+.customers-page {
+    background: url('https://sfwallpaper.com/images/high-res-background-pictures-12.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.customer-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-card:hover {
+    transform: scale(1.1);
+    /* background-color: #f8f9fa; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customer-card {
+    border: 1px solid #ccc;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+.add-customer-form {
+    margin-top: 20px;
+    
+}
+
+.add-customer-form input,
+.add-customer-form select {
+    display: block;
+    margin: 10px 0;
+}
